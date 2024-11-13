@@ -25,6 +25,7 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+ 
   <style>
     body {
       background-color: #ffffff;
@@ -166,14 +167,35 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
+        <div class="item" style="text-align: center;">
+          <!-- Your image here -->
+          <img src="./static/assets/u-net.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered bro">
+            A basic architecture of U-Net neural network.
+          </h2>
+        </div>
+        <div class="item" style="text-align: center;">
+          <!-- Your image here -->
+          <img src="./static/assets/dataset_images.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered bro">
+            Fetal ultrasound images of gestational age 20-30 weeks.
+          </h2>
+        </div>
+        <div class="item" style="text-align: center;">
+          <!-- Your image here -->
+          <img src="./static/assets/masks_dataset.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered bro">
+           Annotated masks corresponding to the images in the training dataset.
+         </h2>
+    </div>
+       <div class="item" style="text-align: center;">
         <!-- Your image here -->
-        <img src="./static/assets/ROImasks.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered bro">
+        <img src="./static/assets/ROImasks.png" alt="MY ALT TEXT"  />
+        <h2 class="subtitle has-text-centered bro mx-2">
           Training DataSet and ROI Masks
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="text-align: center; padding-top: 250px;" >
         <!-- Your image here -->
         <img src="./static/assets/results.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered bro">
@@ -184,8 +206,6 @@
 </div>
 </section>
 <!-- End image carousel -->
-
-
 
 <!-- Paper poster -->
 <section class="hero is-small is-light">
@@ -221,7 +241,6 @@
         Contact Us: <a href="mailto:jaityagi132@gmail.com">Jai Tyagi</a>, <a href="mailto:manyabuzz85@gmail.com">Manya Goyal</a>, <a href="mailto:jaityagi132@gmail.com">Rahul Baliyan</a><br><br>
         © 2024 Fetal Health Monitoring. All rights reserved.
       </p>
-
         </div>
       </div>
     </div>
@@ -238,11 +257,6 @@
     document.querySelector('.footer').classList.toggle('dark-mode');
   });
 </script>
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
 
   </body>
   </html>
